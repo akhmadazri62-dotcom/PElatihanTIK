@@ -1,1 +1,1 @@
-# PElatihanTIK
+# pelatihanTIK
