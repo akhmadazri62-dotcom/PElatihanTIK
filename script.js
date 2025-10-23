@@ -1,7 +1,7 @@
 // 1. pilih tombol berdasarkan ID-NYS
-cons tombolsapa = document.getElemenById('sapabutton');
+const tombolsapa = document.getElementById('sapaButton');
 // 2. tambahan 'event listener'untuk aksi 'click'
-tombolsapa,addEventlistener('click', function() {
+tombolsapa.addEventListener('click', function() {
     // 3. jalankan kode ini ketika tombol di link
     alert('Halo! terima kasih sudah berkunjung!');
 });
