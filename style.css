@@ -1,6 +1,6 @@
 body {
-   background-clor: #DEB887; /* warana kuning cerah */
-    fond-family:Arial, sans-serif; /* Jenis huruf yang bersih dan mudah di baca */
+   background-color: #DEB887; /* warna kuning cerah */
+    font-family:Arial, sans-serif; /* Jenis huruf yang bersih dan mudah di baca */
     color: #191970; /* warna teks utama (biru gelap) */
 }
 
@@ -16,3 +16,23 @@ body {
 .kartu-profil img {
     width: 150px;
     border-radius:50%;
+}
+   
+.kartu-profil:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+button {
+  background-color: #191970;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4169E1;
+}
+
+
